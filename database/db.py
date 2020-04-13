@@ -16,15 +16,7 @@ def write_sample_of_field(field, data):
         return data
 
 
-class sample_db:
+class db:
     @staticmethod
-    def read_jobs():
-        return get_sample_of_field("company_data")
-
-    @staticmethod
-    def write_jobs(data):
-        return write_sample_of_field("company_data", data)
-
-
-def validate_input(input):
-    return True
+    def read_posts():
+        return get_sample_of_field("posts")
